@@ -16,7 +16,7 @@ function Gallery() {
         <Text>Gallery</Text>
         <Masonry gutter={20} >
           {fotos.map((f) => (
-            <Image key={f.id} src={f.url} w={250} h={'auto'}/>
+            <Image key={f.id} src={f.url} boxSize={250} h={'auto'}/>
           ))}
         </Masonry>
       </Stack>

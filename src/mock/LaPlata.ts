@@ -1,20 +1,22 @@
 import { Fotos } from "./types";
 
-import foto1 from "../assets/Bernal/1.jpg";
-import foto2 from "../assets/Bernal/2.jpg";
-import foto3 from "../assets/Bernal/3.jpg";
-import foto4 from "../assets/Bernal/4.jpg";
-import foto5 from "../assets/Bernal/5.jpg";
-import foto6 from "../assets/Bernal/6.jpg";
-import foto7 from "../assets/Bernal/7.jpg";
-import foto8 from "../assets/Bernal/8.jpg";
-import foto9 from "../assets/Bernal/9.jpg";
-import foto10 from "../assets/Bernal/10.jpg";
-import foto11 from "../assets/Bernal/11.jpeg";
-import foto12 from "../assets/Bernal/12.png";
+import foto1 from "../assets/LaPlata/1.jpg";
+import foto2 from "../assets/LaPlata/2.jpg";
+import foto3 from "../assets/LaPlata/3.jpg";
+import foto4 from "../assets/LaPlata/4.jpg";
+import foto5 from "../assets/LaPlata/5.jpg";
+import foto6 from "../assets/LaPlata/6.jpg";
+import foto7 from "../assets/LaPlata/7.jpg";
+import foto8 from "../assets/LaPlata/8.jpg";
+import foto9 from "../assets/LaPlata/9.jpg";
+import foto10 from "../assets/LaPlata/10.jpg";
+import foto11 from "../assets/LaPlata/11.jpg";
+import foto12 from "../assets/LaPlata/12.jpg";
+import foto13 from "../assets/LaPlata/13.jpg";
+import foto14 from "../assets/LaPlata/14.png";
 
 export default {
-  get Bernal(): Fotos[] {
+  get LaPlata(): Fotos[] {
     return [
       {
         id: 1,
@@ -31,11 +33,7 @@ export default {
         url: foto3,
         descripcion: "",
       },
-      {
-        id: 12,
-        url: foto12,
-        descripcion: "",
-      },
+
       {
         id: 4,
         url: foto4,
@@ -74,6 +72,21 @@ export default {
       {
         id: 11,
         url: foto11,
+        descripcion: "",
+      },
+      {
+        id: 12,
+        url: foto12,
+        descripcion: "",
+      },
+      {
+        id: 13,
+        url: foto13,
+        descripcion: "",
+      },
+      {
+        id: 14,
+        url: foto14,
         descripcion: "",
       },
     ];

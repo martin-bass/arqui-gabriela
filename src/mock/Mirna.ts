@@ -1,20 +1,18 @@
 import { Fotos } from "./types";
 
-import foto1 from "../assets/Bernal/1.jpg";
-import foto2 from "../assets/Bernal/2.jpg";
-import foto3 from "../assets/Bernal/3.jpg";
-import foto4 from "../assets/Bernal/4.jpg";
-import foto5 from "../assets/Bernal/5.jpg";
-import foto6 from "../assets/Bernal/6.jpg";
-import foto7 from "../assets/Bernal/7.jpg";
-import foto8 from "../assets/Bernal/8.jpg";
-import foto9 from "../assets/Bernal/9.jpg";
-import foto10 from "../assets/Bernal/10.jpg";
-import foto11 from "../assets/Bernal/11.jpeg";
-import foto12 from "../assets/Bernal/12.png";
+import foto1 from "../assets/Mirna/1.jpg";
+import foto2 from "../assets/Mirna/2.jpg";
+import foto3 from "../assets/Mirna/3.jpg";
+import foto4 from "../assets/Mirna/4.jpg";
+import foto5 from "../assets/Mirna/5.jpg";
+import foto6 from "../assets/Mirna/6.jpeg";
+import foto7 from "../assets/Mirna/7.jpeg";
+import foto8 from "../assets/Mirna/8.jpeg";
+import foto9 from "../assets/Mirna/9.jpeg";
+import foto10 from "../assets/Mirna/10.jpeg";
 
 export default {
-  get Bernal(): Fotos[] {
+  get Mirna(): Fotos[] {
     return [
       {
         id: 1,
@@ -31,11 +29,7 @@ export default {
         url: foto3,
         descripcion: "",
       },
-      {
-        id: 12,
-        url: foto12,
-        descripcion: "",
-      },
+
       {
         id: 4,
         url: foto4,
@@ -69,11 +63,6 @@ export default {
       {
         id: 10,
         url: foto10,
-        descripcion: "",
-      },
-      {
-        id: 11,
-        url: foto11,
         descripcion: "",
       },
     ];

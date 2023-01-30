@@ -3,3 +3,10 @@ export interface Fotos {
   url: string;
   descripcion?: string;
 }
+
+export interface Proyectos {
+  id: number;
+  title: string;
+  portada: string;
+  url: string
+}

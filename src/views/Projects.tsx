@@ -1,12 +1,15 @@
-import { Stack, Text } from '@chakra-ui/react';
-import React from 'react'
+import { Stack } from "@chakra-ui/react";
+
+//Components
+import CardsProjects from '../components/CardsProjects';
+//import Gallery from "../components/Gallery";
 
 function Projects() {
   return (
-    <Stack>
-        <Text pt={200}>Projects</Text>
+    <Stack pt={100} px={5} w={'full'} >
+      <CardsProjects/>
     </Stack>
-  )
+  );
 }
 
 export default Projects;

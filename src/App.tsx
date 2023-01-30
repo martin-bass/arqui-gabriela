@@ -6,16 +6,19 @@ import { ChakraProvider, Container } from "@chakra-ui/react";
 
 //Components
 import NavBar from "../src/components/NavBar";
+import Footer from "./components/Footer";
 
 //Views
 import Home from "./views/Home";
 import Projects from "./views/Projects";
+import Project from "./views/Project";
 
 function App() {
   return (
     <ChakraProvider>
       <BrowserRouter>
         <NavBar />
+
         <Container
           minH={"100vh"}
           bgColor={"blackAlpha.200"}
@@ -28,8 +31,10 @@ function App() {
           <Routes>
             <Route element={<Home />} path="/" />
             <Route element={<Projects />} path="/projects" />
+            <Route element={<Project />} path="/projects/:url" />
           </Routes>
         </Container>
+        <Footer />
       </BrowserRouter>
     </ChakraProvider>
   );

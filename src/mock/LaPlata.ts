@@ -5,7 +5,7 @@ import foto2 from "../assets/LaPlata/2.webp";
 import foto3 from "../assets/LaPlata/3.webp";
 import foto4 from "../assets/LaPlata/4.webp";
 import foto5 from "../assets/LaPlata/5.webp";
-import foto6 from "../assets/LaPlata/6.webp";
+//import foto6 from "../assets/LaPlata/6.webp";
 import foto7 from "../assets/LaPlata/7.webp";
 import foto8 from "../assets/LaPlata/8.webp";
 import foto9 from "../assets/LaPlata/9.webp";
@@ -42,11 +42,6 @@ export default {
       {
         id: 5,
         url: foto5,
-        descripcion: "",
-      },
-      {
-        id: 6,
-        url: foto6,
         descripcion: "",
       },
       {
@@ -92,3 +87,5 @@ export default {
     ];
   },
 };
+
+

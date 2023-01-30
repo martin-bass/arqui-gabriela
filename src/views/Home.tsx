@@ -1,10 +1,14 @@
-import { Stack, Text } from '@chakra-ui/react';
-import React from 'react'
+import { Stack } from '@chakra-ui/react';
+import React from 'react';
+
+//Components
+import CaptionCarousel from '../components/Carousel';
+
 
 function Home() {
   return (
     <Stack>
-        <Text pt={200}>Home</Text>
+        <CaptionCarousel/>
     </Stack>
   )
 }

@@ -74,7 +74,7 @@ function CardsProjects() {
       <Grid templateColumns="repeat(2, 1fr)" gap={10}>
         {proyectos.map((project) => (
           <GridItem key={project.id}>
-            <Link href={`/projects/${project.url}`}>
+            <Link href={`/projects/${project.url}`} style={{textDecoration:'none'}}>
               <CardProject project={project} />
             </Link>
           </GridItem>

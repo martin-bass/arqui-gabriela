@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
 
 //Chakra UI
@@ -14,7 +14,7 @@ import Projects from "./views/Projects";
 function App() {
   return (
     <ChakraProvider>
-      <Router>
+      <BrowserRouter>
         <NavBar />
         <Container
           minH={"100vh"}
@@ -26,11 +26,11 @@ function App() {
           maxW={"1440px"}
         >
           <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/projects" element={<Projects />}></Route>
+            <Route element={<Home />} path="/" />
+            <Route element={<Projects />} path="/projects" />
           </Routes>
         </Container>
-      </Router>
+      </BrowserRouter>
     </ChakraProvider>
   );
 }

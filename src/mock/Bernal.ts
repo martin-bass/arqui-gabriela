@@ -1,17 +1,17 @@
 import { Fotos } from "./types";
 
-import foto1 from "../assets/Bernal/1.jpg";
-import foto2 from "../assets/Bernal/2.jpg";
-import foto3 from "../assets/Bernal/3.jpg";
-import foto4 from "../assets/Bernal/4.jpg";
-import foto5 from "../assets/Bernal/5.jpg";
-import foto6 from "../assets/Bernal/6.jpg";
-import foto7 from "../assets/Bernal/7.jpg";
-import foto8 from "../assets/Bernal/8.jpg";
-import foto9 from "../assets/Bernal/9.jpg";
-import foto10 from "../assets/Bernal/10.jpg";
-import foto11 from "../assets/Bernal/11.jpeg";
-import foto12 from "../assets/Bernal/12.png";
+import foto1 from "../assets/Bernal/1.webp";
+import foto2 from "../assets/Bernal/2.webp";
+import foto3 from "../assets/Bernal/3.webp";
+import foto4 from "../assets/Bernal/4.webp";
+import foto5 from "../assets/Bernal/5.webp";
+import foto6 from "../assets/Bernal/6.webp";
+import foto7 from "../assets/Bernal/7.webp";
+import foto8 from "../assets/Bernal/8.webp";
+import foto9 from "../assets/Bernal/9.webp";
+import foto10 from "../assets/Bernal/10.webp";
+import foto11 from "../assets/Bernal/11.webp";
+import foto12 from "../assets/Bernal/12.webp";
 
 export default {
   get Bernal(): Fotos[] {

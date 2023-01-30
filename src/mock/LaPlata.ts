@@ -1,19 +1,19 @@
 import { Fotos } from "./types";
 
-import foto1 from "../assets/LaPlata/1.jpg";
-import foto2 from "../assets/LaPlata/2.jpg";
-import foto3 from "../assets/LaPlata/3.jpg";
-import foto4 from "../assets/LaPlata/4.jpg";
-import foto5 from "../assets/LaPlata/5.jpg";
-import foto6 from "../assets/LaPlata/6.jpg";
-import foto7 from "../assets/LaPlata/7.jpg";
-import foto8 from "../assets/LaPlata/8.jpg";
-import foto9 from "../assets/LaPlata/9.jpg";
-import foto10 from "../assets/LaPlata/10.jpg";
-import foto11 from "../assets/LaPlata/11.jpg";
-import foto12 from "../assets/LaPlata/12.jpg";
-import foto13 from "../assets/LaPlata/13.jpg";
-import foto14 from "../assets/LaPlata/14.png";
+import foto1 from "../assets/LaPlata/1.webp";
+import foto2 from "../assets/LaPlata/2.webp";
+import foto3 from "../assets/LaPlata/3.webp";
+import foto4 from "../assets/LaPlata/4.webp";
+import foto5 from "../assets/LaPlata/5.webp";
+import foto6 from "../assets/LaPlata/6.webp";
+import foto7 from "../assets/LaPlata/7.webp";
+import foto8 from "../assets/LaPlata/8.webp";
+import foto9 from "../assets/LaPlata/9.webp";
+import foto10 from "../assets/LaPlata/10.webp";
+import foto11 from "../assets/LaPlata/11.webp";
+import foto12 from "../assets/LaPlata/12.webp";
+import foto13 from "../assets/LaPlata/13.webp";
+import foto14 from "../assets/LaPlata/14.webp";
 
 export default {
   get LaPlata(): Fotos[] {

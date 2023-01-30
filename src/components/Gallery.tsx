@@ -1,5 +1,5 @@
-import React from "react";
-import { Stack, Text, Grid, GridItem, Image, Box } from "@chakra-ui/react";
+//import React from "react";
+import { Stack, Text, Image } from "@chakra-ui/react";
 
 import { Masonry } from "react-masonry";
 
@@ -8,10 +8,9 @@ import Bernal from "../mock/Bernal";
 
 function Gallery() {
   const fotos = Bernal.Bernal;
-  console.log(Bernal.Bernal);
 
   return (
-    <Stack w="full" pl={"250px"} pr={4}>
+    <Stack w="full" pt={'69px'} px={10}>
       <Stack w={"full"}>
         <Text>Gallery</Text>
         <Masonry gutter={20} >

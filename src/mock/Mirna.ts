@@ -1,15 +1,15 @@
 import { Fotos } from "./types";
 
-import foto1 from "../assets/Mirna/1.jpg";
-import foto2 from "../assets/Mirna/2.jpg";
-import foto3 from "../assets/Mirna/3.jpg";
-import foto4 from "../assets/Mirna/4.jpg";
-import foto5 from "../assets/Mirna/5.jpg";
-import foto6 from "../assets/Mirna/6.jpeg";
-import foto7 from "../assets/Mirna/7.jpeg";
-import foto8 from "../assets/Mirna/8.jpeg";
-import foto9 from "../assets/Mirna/9.jpeg";
-import foto10 from "../assets/Mirna/10.jpeg";
+import foto1 from "../assets/Mirna/1.webp";
+import foto2 from "../assets/Mirna/2.webp";
+import foto3 from "../assets/Mirna/3.webp";
+import foto4 from "../assets/Mirna/4.webp";
+import foto5 from "../assets/Mirna/5.webp";
+import foto6 from "../assets/Mirna/6.webp";
+import foto7 from "../assets/Mirna/7.webp";
+import foto8 from "../assets/Mirna/8.webp";
+import foto9 from "../assets/Mirna/9.webp";
+import foto10 from "../assets/Mirna/10.webp";
 
 export default {
   get Mirna(): Fotos[] {

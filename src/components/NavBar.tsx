@@ -1,6 +1,18 @@
 import React from "react";
 
-import { HStack, Text, Link, Box, Drawer, DrawerContent, CloseButton, useDisclosure, useColorModeValue, Button, Flex } from "@chakra-ui/react";
+import {
+  HStack,
+  Text,
+  Link,
+  Box,
+  Drawer,
+  DrawerContent,
+  CloseButton,
+  useDisclosure,
+  useColorModeValue,
+  Button,
+  Flex,
+} from "@chakra-ui/react";
 
 function NavBar() {
   return (
@@ -11,15 +23,15 @@ function NavBar() {
       justifyContent={"space-between"}
       position={"fixed"}
       borderBottom={"1px solid #000"}
-      bgColor={'white'}
-      zIndex='overlay'
+      bgColor={"white"}
+      zIndex="overlay"
     >
-      <Link style={{textDecoration: 'none'}}>
+      <Link href="/projects" style={{ textDecoration: "none" }}>
         <Text fontSize={24} paddingLeft={12}>
           Proyectos
         </Text>
       </Link>
-      <Link href="/" style={{textDecoration: 'none'}}>
+      <Link href="/" style={{ textDecoration: "none" }}>
         <Text fontSize={24} fontWeight={"bold"} paddingRight={12}>
           Gabriela Yapur
         </Text>

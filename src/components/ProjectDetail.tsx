@@ -7,15 +7,17 @@ import ArrayDeProyectos from "../mock/Poyectos";
 
 //Components
 import Gallery from "../components/Gallery";
+import { ReactElement } from "react";
 
-interface Props {
+export interface Props {
   params: { url?: string }
 };
 
 
+    
 
 function ProjectDetail({ params }: Props) {
-    const projectFound = ArrayDeProyectos.Projects.find((proj) => {
+    const projectFound: Proyectos | any = ArrayDeProyectos.Projects.find((proj) => {
         if (proj.url === params.url) {
           return proj;
         }

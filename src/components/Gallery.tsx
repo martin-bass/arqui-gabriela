@@ -4,13 +4,14 @@ import { Stack, Text, Image } from "@chakra-ui/react";
 import Masonry from "react-masonry-css";
 import '../styles/Masonry.css';
 
-import Bernal from "../mock/Bernal";
-import { Fotos, Proyectos } from "../mock/types";
+import { Proyectos } from "../mock/types";
 
 
 interface Props {
   projectFound : Proyectos
 };
+
+export type projectFound = Proyectos
 
 function Gallery({projectFound} : Props) {
   

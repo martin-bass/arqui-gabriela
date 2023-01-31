@@ -41,7 +41,7 @@ function CardsProjects() {
   const proyectos = Projects.Projects
 
   return (
-    <Stack w={"full"} p={5}>
+    <Stack w={"full"} p={5} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
       <Grid templateColumns="repeat(2, 1fr)" gap={10}>
         {proyectos.map((project) => (
           <GridItem key={project.id}>

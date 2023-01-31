@@ -28,7 +28,7 @@ function ProjectDetail({ params }: Props) {
         <Text>Fecha de la obra: {projectFound?.fecha}</Text>
         <Text>Descripcion: {projectFound?.description}</Text>
       </VStack>
-      <Gallery projectFound={projectFound} />
+      <Gallery projectFound={projectFound}/>
     </Stack>
   );
 }

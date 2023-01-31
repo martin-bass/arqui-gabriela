@@ -6,7 +6,6 @@ import {
   Modal,
   ModalOverlay,
   ModalContent,
-  ModalHeader,
   ModalCloseButton,
   ModalBody,
 } from "@chakra-ui/react";
@@ -44,7 +43,7 @@ function Gallery({ projectFound }: Props) {
   };
 
   return (
-    <Stack w={"1440px"} px={10}>
+    <Stack w={"1440px"} px={10} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
       <Stack>
         <Text>Gallery</Text>
         <Masonry
@@ -61,25 +60,27 @@ function Gallery({ projectFound }: Props) {
               margin={4}
               onClick={() => handleSelect(f.id)}
               cursor="pointer"
+              borderRadius={"3xl"}
             />
           ))}
         </Masonry>
         {/* Modal */}
         <Modal onClose={onClose} isOpen={isOpen} isCentered>
           <ModalOverlay />
-          <ModalContent 
-          p={4} 
-          top={'30px'}
-          //w={'auto'}
+          <ModalContent
+            p={4}
+            top={"30px"}
+            //w={'auto'}
           >
             <ModalCloseButton />
-            <ModalBody >
-              <Image 
-              src={imgSelect} 
-              //maxH={"700px"} 
-              //w={"auto"} 
-              h={'auto'}
-              //minW={'500px'}
+            <ModalBody>
+              <Image
+                src={imgSelect}
+                //maxH={"700px"}
+                //w={"auto"}
+                h={"auto"}
+                borderRadius={"3xl"}
+                //minW={'500px'}
               />
             </ModalBody>
           </ModalContent>

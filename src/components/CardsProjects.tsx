@@ -11,39 +11,7 @@ import {
 } from "@chakra-ui/react";
 
 import { Proyectos } from "../mock/types";
-
-//FotosPortada
-import bernal from "../assets/Bernal/12.webp";
-import laplata from "../assets/LaPlata/10.webp";
-import mirna from "../assets/Mirna/5.webp";
-import panaderia from "../assets/Panaderia/7.webp";
-
-const proyectos: Proyectos[] = [
-  {
-    id: 1,
-    title: "Bernal",
-    portada: bernal,
-    url: "bernal",
-  },
-  {
-    id: 2,
-    title: "La Plata",
-    portada: laplata,
-    url: "laplata",
-  },
-  {
-    id: 3,
-    title: "Mirna",
-    portada: mirna,
-    url: "mirna",
-  },
-  {
-    id: 4,
-    title: "Panadería",
-    portada: panaderia,
-    url: "panaderia",
-  },
-];
+import Projects from '../mock/Poyectos';
 
 type Props = {
   project: Proyectos;
@@ -69,6 +37,9 @@ function CardProject({ project }: Props) {
 }
 
 function CardsProjects() {
+
+  const proyectos = Projects.Projects
+
   return (
     <Stack w={"full"} p={5}>
       <Grid templateColumns="repeat(2, 1fr)" gap={10}>

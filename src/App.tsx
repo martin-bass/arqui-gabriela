@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 //Views
 import Home from "./views/Home";
 import Projects from "./views/Projects";
-import Project from "./views/Project";
+import SingleProject from "./views/SingleProject";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
           <Routes>
             <Route element={<Home />} path="/" />
             <Route element={<Projects />} path="/projects" />
-            <Route element={<Project />} path="/projects/:url" />
+            <Route element={<SingleProject />} path="/projects/:url" />
           </Routes>
         </Container>
         <Footer />

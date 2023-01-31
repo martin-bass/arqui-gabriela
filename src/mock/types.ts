@@ -8,5 +8,8 @@ export interface Proyectos {
   id: number;
   title: string;
   portada: string;
-  url: string
+  url: string;
+  description?: string;
+  fecha?: string;
+  fotos?: Fotos[]
 }

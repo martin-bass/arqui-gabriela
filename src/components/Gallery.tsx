@@ -45,7 +45,6 @@ function Gallery({ projectFound }: Props) {
   return (
     <Stack w={"1440px"} px={10} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
       <Stack>
-        <Text>Gallery</Text>
         <Masonry
           breakpointCols={breakpointColumnsObj}
           className="my-masonry-grid"
@@ -54,6 +53,7 @@ function Gallery({ projectFound }: Props) {
           {fotos?.map((f: any) => (
             <Image
               key={f.id}
+              className="imgCard"
               src={f.url}
               boxSize={250}
               h={"auto"}
@@ -61,6 +61,7 @@ function Gallery({ projectFound }: Props) {
               onClick={() => handleSelect(f.id)}
               cursor="pointer"
               borderRadius={"3xl"}
+              border={"1px solid #A0AEC0"}
             />
           ))}
         </Masonry>
@@ -76,6 +77,7 @@ function Gallery({ projectFound }: Props) {
             <ModalBody>
               <Image
                 src={imgSelect}
+                border={"1px solid #A0AEC0"}
                 //maxH={"700px"}
                 //w={"auto"}
                 h={"auto"}

@@ -1,39 +1,31 @@
-import React from "react";
-
-import {
-  HStack,
-  Text,
-  Link,
-  Box,
-  Drawer,
-  DrawerContent,
-  CloseButton,
-  useDisclosure,
-  useColorModeValue,
-  Button,
-  Flex,
-} from "@chakra-ui/react";
+import { HStack, Text, Link } from "@chakra-ui/react";
 
 function NavBar() {
   return (
     <HStack
-      p={4}
+      py={4}
+      px={20}
       w={"full"}
       display={"flex"}
       justifyContent={"space-between"}
       position={"fixed"}
-      borderBottom={"1px solid #000"}
+      borderBottom={"1px solid #A0AEC0"}
       bgColor={"white"}
       zIndex="overlay"
     >
-      <Link href="/projects" style={{ textDecoration: "none" }}>
-        <Text fontSize={24} paddingLeft={12}>
-          Proyectos
+      <Link href="/" style={{ textDecoration: "none" }}>
+        <Text
+          fontSize={28}
+          fontWeight={"bold"}
+          paddingRight={12}
+          _hover={{ color: "#319795" }}
+        >
+          ARQ Gabriela Yapur
         </Text>
       </Link>
-      <Link href="/" style={{ textDecoration: "none" }}>
-        <Text fontSize={24} fontWeight={"bold"} paddingRight={12}>
-          Gabriela Yapur
+      <Link href="/projects" style={{ textDecoration: "none" }}>
+        <Text fontSize={24} paddingLeft={12} _hover={{ color: "#319795" }}>
+          Proyectos
         </Text>
       </Link>
     </HStack>

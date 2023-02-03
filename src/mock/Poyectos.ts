@@ -7,10 +7,11 @@ import mirna from "../assets/Mirna/5.webp";
 import panaderia from "../assets/Panaderia/7.webp";
 
 //Array de fotos
-import fotosBernal from '../mock/Bernal';
-import fotosLaPlata from '../mock/LaPlata';
-import fotosMirna from '../mock/Mirna';
-import fotosPanaderia from '../mock/Panaderia';
+import fotosBernal from "../mock/Bernal";
+import fotosLaPlata from "../mock/LaPlata";
+import fotosMirna from "../mock/Mirna";
+
+import fotosPanaderia from "../mock/Panaderia";
 
 export default {
   get Projects(): Proyectos[] {
@@ -20,36 +21,40 @@ export default {
         title: "Bernal",
         portada: bernal,
         url: "bernal",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
         fecha: "31/01/2023",
-        fotos: fotosBernal.Bernal
+        fotos: fotosBernal.Bernal,
       },
       {
         id: 2,
         title: "La Plata",
         portada: laplata,
         url: "laplata",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
         fecha: "11/01/2023",
-        fotos: fotosLaPlata.LaPlata
+        fotos: fotosLaPlata.LaPlata,
       },
       {
         id: 3,
         title: "Mirna",
         portada: mirna,
         url: "mirna",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
         fecha: "22/01/2022",
-        fotos: fotosMirna.Mirna
+        fotos: fotosMirna.Mirna,
       },
       {
         id: 4,
         title: "Panadería",
         portada: panaderia,
         url: "panaderia",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
         fecha: "01/01/2018",
-        fotos: fotosPanaderia.Panaderia
+        fotos: fotosPanaderia.Panaderia,
       },
     ];
   },

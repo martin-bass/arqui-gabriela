@@ -11,5 +11,5 @@ export interface Proyectos {
   url: string;
   description?: string;
   fecha?: string;
-  fotos?: Fotos[]
+  fotos?: Fotos[];
 }

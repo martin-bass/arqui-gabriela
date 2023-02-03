@@ -14,6 +14,7 @@ import {
 import "../styles/imgCard.css";
 
 import { Proyectos } from "../mock/types";
+
 import Projects from "../mock/Poyectos";
 
 type Props = {

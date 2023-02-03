@@ -1,6 +1,5 @@
 import {
   Stack,
-  Text,
   Image,
   useDisclosure,
   Modal,
@@ -43,7 +42,13 @@ function Gallery({ projectFound }: Props) {
   };
 
   return (
-    <Stack w={"1440px"} px={10} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+    <Stack
+      w={"1440px"}
+      px={10}
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="100"
+    >
       <Stack>
         <Masonry
           breakpointCols={breakpointColumnsObj}

@@ -1,8 +1,9 @@
-import { Stack, Image, Box, Text } from "@chakra-ui/react";
+import { useState } from "react";
+
+import { Stack, Image, Box } from "@chakra-ui/react";
 
 //Animate CSS
 import "animate.css";
-
 
 //Masonry
 import Masonry from "react-masonry-css";
@@ -19,7 +20,6 @@ import foto7 from "../assets/Home/7.jpg";
 import foto8 from "../assets/Home/8.jpg";
 import foto9 from "../assets/Home/9.jpg";
 import foto10 from "../assets/Home/10.jpg";
-import { useState } from "react";
 
 //Cards para el Home
 const fotosHome = [
@@ -35,9 +35,9 @@ const fotosHome = [
   { id: 8, foto: foto8, hover: false },
 ];
 
-interface Image {
-  className?: any;
-}
+type Props = {
+  className?: string;
+};
 
 function Home() {
   const breakpointColumnsObj = {
@@ -47,7 +47,7 @@ function Home() {
     500: 1,
   };
 
-  const [isHovering, setIsHovering] = useState({});
+  const [_isHovering, setIsHovering] = useState({});
 
   const handleMouseOver = (id: number) => {
     const imgFound = fotosHome.filter((img) => img.id === id);
@@ -65,7 +65,9 @@ function Home() {
     <Stack
       paddingTop={100}
       px={20}
-      data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="100"
     >
       <Masonry
         breakpointCols={breakpointColumnsObj}

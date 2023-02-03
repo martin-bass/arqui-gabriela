@@ -9,7 +9,7 @@ function SingleProject() {
 
   return (
     <Stack w={"full"} h={"100vh"} px={4}>
-      <ProjectDetail params={params}/>
+      <ProjectDetail params={params} />
     </Stack>
   );
 }

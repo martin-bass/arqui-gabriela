@@ -75,12 +75,11 @@ function Home() {
         columnClassName="my-masonry-grid_column"
       >
         {fotosHome?.map((f) => (
-          <Box margin={4} borderRadius={"3xl"}>
+          <Box margin={4}key={f.id} >
             <Image
               key={f.id}
               src={f.foto}
               h={"auto"}
-              borderRadius={"3xl"}
               onMouseOver={() => handleMouseOver(f.id)}
               onMouseOut={() => handleMouseOut(f.id)}
               className={

@@ -17,18 +17,19 @@ function Footer() {
       w={"full"}
       paddingRight={10}
       alignItems={"end"}
-      borderTop={"1px solid #A0AEC0"}
-      bgColor={"white"}
+      borderTop={"1px solid #35f035"}
+      bgColor={"blackAlpha.900"}
+      color={'whiteAlpha.900'}
       zIndex={10}
     >
       <HStack>
         <Link href="https://www.instagram.com/" isExternal>
-          <Tooltip label="Instagram">
+          <Tooltip label="Instagram" bg={'gray.200'} color='black' placement='left-start'>
             <IconButton
               aria-label={"instagram"}
               icon={<BsInstagram size={"28px"} />}
               variant={"ghost"}
-              _hover={{ bgColor: "none", color: "#319795" }}
+              _hover={{ bgColor: "none", color: "#35f035" }}
             />
           </Tooltip>
         </Link>

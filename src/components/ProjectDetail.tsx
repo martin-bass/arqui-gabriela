@@ -1,4 +1,4 @@
-import { Stack, VStack, Text, Flex, Button, Box, Link } from "@chakra-ui/react";
+import { Stack, VStack, Text, Flex, Button, Box, Link, IconButton } from "@chakra-ui/react";
 
 //mock
 import { Proyectos } from "../mock/types";
@@ -6,6 +6,7 @@ import ArrayDeProyectos from "../mock/Poyectos";
 
 //Icons
 import { AiOutlineRollback } from "react-icons/ai";
+import {RiArrowGoBackFill} from 'react-icons/ri';
 
 //Components
 import Gallery from "../components/Gallery";
@@ -33,9 +34,7 @@ function ProjectDetail({ params }: Props) {
         paddingRight={10}
       >
         <Link href="/projects" style={{ textDecoration: "none" }}>
-          <Button colorScheme={"teal"} leftIcon={<AiOutlineRollback />}>
-            Volver
-          </Button>
+          <IconButton aria-label="Search database" colorScheme={'whatsapp'} icon={<RiArrowGoBackFill />} />
         </Link>
       </Box>
       <VStack alignItems={"start"} px={10} pb={6} spacing={2}>

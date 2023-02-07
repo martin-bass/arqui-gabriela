@@ -65,7 +65,7 @@ function Gallery({ projectFound }: Props) {
               margin={4}
               onClick={() => handleSelect(f.id)}
               cursor="pointer"
-              borderRadius={"3xl"}
+              //borderRadius={"3xl"}
               border={"1px solid #A0AEC0"}
             />
           ))}
@@ -86,7 +86,7 @@ function Gallery({ projectFound }: Props) {
                 //maxH={"700px"}
                 //w={"auto"}
                 h={"auto"}
-                borderRadius={"3xl"}
+                //borderRadius={"3xl"}
                 //minW={'500px'}
               />
             </ModalBody>

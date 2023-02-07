@@ -8,6 +8,9 @@ import {
   Image,
   Text,
   Link,
+  Box,
+  VStack,
+  Flex,
 } from "@chakra-ui/react";
 
 //Styles
@@ -23,28 +26,34 @@ type Props = {
 
 function CardProject({ project }: Props) {
   return (
-    <Card
-      variant={"outline"}
-      h={"500px"}
-      paddingBottom={4}
+    <VStack
+      //variant={"outline"}
+      //h={"500px"}
+      w={"600px"}
+      paddingBottom={10}
       cursor="pointer"
-      boxShadow={"2xl"}
+      //bgColor={"#0A0A0A"}
+      color={"whiteAlpha.900"}
+      display="flex"
     >
-      <CardHeader>
-        <Text fontSize={24} fontWeight={"bold"} _hover={{ color: "#319795" }}>
+      <Flex w="full" justifyContent={"start"}>
+        <Text
+          paddingLeft={12}
+          fontSize={16}
+          _hover={{ color: "#35f035" }}
+          casing="uppercase"
+        >
           {project.title}
         </Text>
-      </CardHeader>
-      <CardBody p={0} margin={"auto"} overflow="hidden" borderRadius="10px">
-        <Image
-          className="imgCard"
-          src={project.portada}
-          objectFit="cover"
-          boxSize={"500px"}
-          border={"1px solid #A0AEC0"}
-        />
-      </CardBody>
-    </Card>
+      </Flex>
+      <Image
+        className="imgCard"
+        src={project.portada}
+        objectFit="cover"
+        boxSize={"500px"}
+        margin={"0px !important"}
+      />
+    </VStack>
   );
 }
 
@@ -54,12 +63,11 @@ function CardsProjects() {
   return (
     <Stack
       w={"full"}
-      p={5}
       data-aos="fade-up"
       data-aos-duration="1000"
       data-aos-delay="100"
     >
-      <Grid templateColumns="repeat(2, 1fr)" gap={10}>
+      <Grid templateColumns="repeat(2, 1fr)" gap={2}>
         {proyectos.map((project) => (
           <GridItem key={project.id}>
             <Link

@@ -9,23 +9,30 @@ function NavBar() {
       display={"flex"}
       justifyContent={"space-between"}
       position={"fixed"}
-      borderBottom={"1px solid #A0AEC0"}
-      bgColor={"white"}
+      borderBottom={"1px solid  #35f035"}
+      bgColor={"blackAlpha.900"}
       zIndex="overlay"
+      color={'whiteAlpha.900'}
     >
-      <Link href="/" style={{ textDecoration: "none" }}>
+      <Link href="/projects" style={{ textDecoration: "none" }}>
         <Text
-          fontSize={28}
-          fontWeight={"bold"}
-          paddingRight={12}
-          _hover={{ color: "#319795" }}
+          fontSize={20}
+          paddingLeft={12}
+          _hover={{ color: "#35f035" }}
+          casing="uppercase"
         >
-          ARQ Gabriela Yapur
+          Proyectos
         </Text>
       </Link>
-      <Link href="/projects" style={{ textDecoration: "none" }}>
-        <Text fontSize={24} paddingLeft={12} _hover={{ color: "#319795" }}>
-          Proyectos
+      <Link href="/" style={{ textDecoration: "none" }}>
+        <Text
+          casing="uppercase"
+          fontSize={20}
+          fontWeight={"bold"}
+          paddingRight={12}
+          _hover={{ color: "#35f035" }}
+        >
+          ARQ Gabriela Yapur
         </Text>
       </Link>
     </HStack>

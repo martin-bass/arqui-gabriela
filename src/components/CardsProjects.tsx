@@ -33,14 +33,14 @@ function CardProject({ project }: Props) {
       paddingBottom={10}
       cursor="pointer"
       //bgColor={"#0A0A0A"}
-      color={"whiteAlpha.900"}
+      //color={"whiteAlpha.900"}
       display="flex"
     >
       <Flex w="full" justifyContent={"start"}>
         <Text
           paddingLeft={12}
           fontSize={16}
-          _hover={{ color: "#35f035" }}
+          _hover={{ color: "#279127" }}
           casing="uppercase"
         >
           {project.title}

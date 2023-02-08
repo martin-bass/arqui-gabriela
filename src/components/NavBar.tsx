@@ -9,16 +9,16 @@ function NavBar() {
       display={"flex"}
       justifyContent={"space-between"}
       position={"fixed"}
-      borderBottom={"1px solid  #35f035"}
-      bgColor={"blackAlpha.900"}
+      borderBottom={"1px solid #279127"}
+      bgColor={"white"}
       zIndex="overlay"
-      color={'whiteAlpha.900'}
+      //color={'whiteAlpha.900'}
     >
       <Link href="/projects" style={{ textDecoration: "none" }}>
         <Text
           fontSize={20}
           paddingLeft={12}
-          _hover={{ color: "#35f035" }}
+          _hover={{ color: "#279127" }}
           casing="uppercase"
         >
           Proyectos
@@ -30,7 +30,7 @@ function NavBar() {
           fontSize={20}
           fontWeight={"bold"}
           paddingRight={12}
-          _hover={{ color: "#35f035" }}
+          _hover={{ color: "#279127" }}
         >
           ARQ Gabriela Yapur
         </Text>

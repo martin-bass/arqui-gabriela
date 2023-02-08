@@ -21,7 +21,7 @@ function App() {
 
         <Container
           minH={"100vh"}
-          bgColor={"blackAlpha.800"}
+          bgColor={"blackAlpha.200"}
           centerContent
           paddingX={0}
           w={"1440px"}

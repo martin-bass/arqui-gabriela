@@ -8,7 +8,7 @@ function SingleProject() {
   const params = useParams();
 
   return (
-    <Stack w={"full"} px={4} bgColor="white">
+    <Stack w={"full"} px={4} >
       <ProjectDetail params={params} />
     </Stack>
   );

@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import React from "react";
+import './App.css'
 
 //Chakra UI
 import { ChakraProvider, Container } from "@chakra-ui/react";
@@ -18,7 +18,6 @@ function App() {
     <ChakraProvider>
       <BrowserRouter>
         <NavBar />
-
         <Container
           minH={"100vh"}
           bgColor={"blackAlpha.200"}

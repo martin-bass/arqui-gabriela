@@ -20,6 +20,12 @@ import foto7 from "../assets/Home/7.jpg";
 import foto8 from "../assets/Home/8.jpg";
 import foto9 from "../assets/Home/9.jpg";
 import foto10 from "../assets/Home/10.jpg";
+import foto11 from "../assets/Home/11.png";
+import foto12 from "../assets/Home/12.jpg";
+import foto13 from "../assets/Home/13.jpg";
+import foto14 from "../assets/Home/14.jpg";
+import foto15 from "../assets/Home/15.jpg";
+import foto16 from "../assets/Home/16.jpg";
 
 //Cards para el Home
 const fotosHome = [
@@ -33,6 +39,12 @@ const fotosHome = [
   { id: 5, foto: foto5, hover: false },
   { id: 10, foto: foto10, hover: false },
   { id: 8, foto: foto8, hover: false },
+  { id: 13, foto: foto13, hover: false },
+  { id: 11, foto: foto11, hover: false },
+  { id: 14, foto: foto14, hover: false },
+  { id: 12, foto: foto12, hover: false },
+  { id: 16, foto: foto16, hover: false },
+  { id: 15, foto: foto15, hover: false },
 ];
 
 type Props = {
@@ -41,7 +53,7 @@ type Props = {
 
 function Home() {
   const breakpointColumnsObj = {
-    default: 3,
+    default: 4,
     1100: 3,
     700: 2,
     500: 1,

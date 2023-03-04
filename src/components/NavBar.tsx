@@ -9,7 +9,7 @@ function NavBar() {
       display={"flex"}
       justifyContent={"space-between"}
       position={"fixed"}
-      borderBottom={"1px solid #279127"}
+      //borderBottom={"1px solid #279127"}
       bgColor={"white"}
       zIndex="overlay"
       //color={'whiteAlpha.900'}

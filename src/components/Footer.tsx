@@ -17,7 +17,7 @@ function Footer() {
       w={"full"}
       paddingRight={10}
       alignItems={"end"}
-      borderTop={"1px solid #279127"}
+      //borderTop={"1px solid #279127"}
       bgColor={"white"}
       //color={'whiteAlpha.900'}
       zIndex={10}

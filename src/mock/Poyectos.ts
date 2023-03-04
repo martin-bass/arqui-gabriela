@@ -18,26 +18,6 @@ export default {
     return [
       {
         id: 1,
-        title: "Bernal",
-        portada: bernal,
-        url: "bernal",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
-        fecha: "31/01/2023",
-        fotos: fotosBernal.Bernal,
-      },
-      {
-        id: 2,
-        title: "La Plata",
-        portada: laplata,
-        url: "laplata",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
-        fecha: "11/01/2023",
-        fotos: fotosLaPlata.LaPlata,
-      },
-      {
-        id: 3,
         title: "Mirna",
         portada: mirna,
         url: "mirna",
@@ -47,7 +27,7 @@ export default {
         fotos: fotosMirna.Mirna,
       },
       {
-        id: 4,
+        id: 2,
         title: "Panadería",
         portada: panaderia,
         url: "panaderia",
@@ -55,6 +35,26 @@ export default {
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
         fecha: "01/01/2018",
         fotos: fotosPanaderia.Panaderia,
+      },
+      {
+        id: 3,
+        title: "La Plata",
+        portada: laplata,
+        url: "laplata",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
+        fecha: "11/01/2023",
+        fotos: fotosLaPlata.LaPlata,
+      },
+      {
+        id: 4,
+        title: "Bernal",
+        portada: bernal,
+        url: "bernal",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
+        fecha: "31/01/2023",
+        fotos: fotosBernal.Bernal,
       },
     ];
   },

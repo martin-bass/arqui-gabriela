@@ -87,7 +87,7 @@ function Home() {
         columnClassName="my-masonry-grid_column"
       >
         {fotosHome?.map((f) => (
-          <Box margin={4}key={f.id} >
+          <Box margin={4} key={f.id}>
             <Image
               key={f.id}
               src={f.foto}

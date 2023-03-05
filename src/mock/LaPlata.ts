@@ -14,6 +14,18 @@ import foto11 from "../assets/LaPlata/11.webp";
 import foto12 from "../assets/LaPlata/12.webp";
 import foto13 from "../assets/LaPlata/13.webp";
 import foto14 from "../assets/LaPlata/14.webp";
+import foto15 from "../assets/LaPlata/15.webp";
+import foto16 from "../assets/LaPlata/16.webp";
+import foto17 from "../assets/LaPlata/17.webp";
+import foto18 from "../assets/LaPlata/18.webp";
+import foto19 from "../assets/LaPlata/19.webp";
+import foto20 from "../assets/LaPlata/20.webp";
+import foto21 from "../assets/LaPlata/21.webp";
+import foto22 from "../assets/LaPlata/22.webp";
+import foto23 from "../assets/LaPlata/23.webp";
+import foto24 from "../assets/LaPlata/24.webp";
+import foto25 from "../assets/LaPlata/25.webp";
+import foto26 from "../assets/LaPlata/26.webp";
 
 export default {
   get LaPlata(): Fotos[] {
@@ -82,6 +94,66 @@ export default {
       {
         id: 14,
         url: foto14,
+        descripcion: "",
+      },
+      {
+        id: 15,
+        url: foto15,
+        descripcion: "",
+      },
+      {
+        id: 16,
+        url: foto16,
+        descripcion: "",
+      },
+      {
+        id: 17,
+        url: foto17,
+        descripcion: "",
+      },
+      {
+        id: 18,
+        url: foto18,
+        descripcion: "",
+      },
+      {
+        id: 19,
+        url: foto19,
+        descripcion: "",
+      },
+      {
+        id: 20,
+        url: foto20,
+        descripcion: "",
+      },
+      {
+        id: 21,
+        url: foto21,
+        descripcion: "",
+      },
+      {
+        id: 22,
+        url: foto22,
+        descripcion: "",
+      },
+      {
+        id: 23,
+        url: foto23,
+        descripcion: "",
+      },
+      {
+        id: 24,
+        url: foto24,
+        descripcion: "",
+      },
+      {
+        id: 25,
+        url: foto25,
+        descripcion: "",
+      },
+      {
+        id: 26,
+        url: foto26,
         descripcion: "",
       },
     ];

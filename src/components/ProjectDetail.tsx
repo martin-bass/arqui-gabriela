@@ -13,7 +13,6 @@ import { Proyectos } from "../mock/types";
 import ArrayDeProyectos from "../mock/Poyectos";
 
 //Icons
-import { AiOutlineRollback } from "react-icons/ai";
 import { RiArrowGoBackFill } from "react-icons/ri";
 
 //Components
@@ -44,9 +43,9 @@ function ProjectDetail({ params }: Props) {
         <Link href="/projects" style={{ textDecoration: "none" }}>
           <IconButton
             aria-label="Search database"
-            color={'white'}
-            bgColor={'black'}
-            _hover={{backgroundColor:'grey'}}
+            color={"white"}
+            bgColor={"black"}
+            _hover={{ backgroundColor: "grey" }}
             icon={<RiArrowGoBackFill />}
           />
         </Link>
@@ -54,7 +53,7 @@ function ProjectDetail({ params }: Props) {
       <VStack alignItems={"start"} px={10} pb={6} spacing={2}>
         <Flex whiteSpace={"break-spaces"}>
           <Text fontWeight={"bold"}>Obra: </Text>
-          <Text>{projectFound?.title}</Text>
+          <Text>{projectFound?.obra}</Text>
         </Flex>
         <Flex whiteSpace={"break-spaces"}>
           <Text fontWeight={"bold"}>Fecha: </Text>
@@ -62,7 +61,7 @@ function ProjectDetail({ params }: Props) {
         </Flex>
         <Flex whiteSpace={"break-spaces"}>
           <Text fontWeight={"bold"}>Descripción: </Text>
-          <Text>{projectFound?.description}</Text>
+          <Text textAlign={"left"}>{projectFound?.description}</Text>
         </Flex>
       </VStack>
       <Gallery projectFound={projectFound} />

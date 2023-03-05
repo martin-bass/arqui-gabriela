@@ -7,6 +7,7 @@ import {
   ModalContent,
   ModalCloseButton,
   ModalBody,
+  Flex,
 } from "@chakra-ui/react";
 
 //Masonry
@@ -75,21 +76,28 @@ function Gallery({ projectFound }: Props) {
           <ModalOverlay />
           <ModalContent
             p={4}
-            top={"30px"}
-            //w={'auto'}
+            position="relative"
+            top={"20px"}
+            margin={"auto"}
+            minWidth={"700px"}
+            w={"full"}
+            height="fit-content"
           >
-            <ModalCloseButton />
-            <ModalBody>
-              <Image
-                src={imgSelect}
-                border={"1px solid #A0AEC0"}
-                //maxH={"700px"}
-                //w={"auto"}
-                h={"auto"}
-                //borderRadius={"3xl"}
-                //minW={'500px'}
-              />
-            </ModalBody>
+            <Flex
+              pt={4}
+              display="flex"
+              justifyContent={"center"}
+              alignItems="center"
+            >
+              <ModalCloseButton />
+              <ModalBody>
+                <Image
+                  src={imgSelect}
+                  border={"1px solid #A0AEC0"}
+                  width="auto"
+                />
+              </ModalBody>
+            </Flex>
           </ModalContent>
         </Modal>
         {/* Fin Modal */}

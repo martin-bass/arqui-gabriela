@@ -19,41 +19,45 @@ export default {
       {
         id: 1,
         title: "Mirna",
+        obra: "Islas Malvinas",
         portada: mirna,
         url: "mirna",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
-        fecha: "22/01/2022",
+          "Cerramiento de esquina sobre línea municipal.\nSe buscó generar un cerramiento visualmente permeable, que se adapte estéticamente a la vivienda, obteniendo como resultado seguridad y una respuesta sensible al entorno.\nMateriales: Ladrillo visto y hierro.",
+        fecha: "Febrero 2019",
         fotos: fotosMirna.Mirna,
       },
       {
         id: 2,
         title: "Panadería",
+        obra: "El Molino",
         portada: panaderia,
         url: "panaderia",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
-        fecha: "01/01/2018",
+          "Restauración integral de  frente en local comercial.\nRenovación de cartelería, diseño gráfico, vereda y  mobiliario exterior.\nEl resultado nace de buscar una estética sencilla y llamativa sobre un edificio existente, utilizando principalmente dorado, blanco y negro en materiales de alta resistencia y duración.",
+        fecha: "Febrero 2021",
         fotos: fotosPanaderia.Panaderia,
       },
       {
         id: 3,
         title: "La Plata",
+        obra: "La plata",
         portada: laplata,
         url: "laplata",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
-        fecha: "11/01/2023",
+          "Remodelación de vivienda unifamiliar.\nRefuncionalización total de vivienda existente, priorizando la orientación solar favorable y la relación con el exterior. Se mantiene la cáscara de la casa, perforándola para el ingreso de luz cenital, agregando una circulación principal  que une los espacios interiores , siempre en  contacto  con el patio verde interior.\nObra híbrida en construcción tradicional y steel framing.",
+        fecha: "Noviembre 2022 / en curso",
         fotos: fotosLaPlata.LaPlata,
       },
       {
         id: 4,
         title: "Bernal",
+        obra: "9 de Julio",
         portada: bernal,
         url: "bernal",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo fugit iste beatae totam nisi inventore molestias praesentium maxime aspernatur adipisci magnam vel id laboriosam sapiente, nemo, vero suscipit tempora iusto sit distinctio amet quae. Velit voluptas minus laboriosam officiis.",
-        fecha: "31/01/2023",
+          "Remodelación de cocina comedor en vivienda unifamiliar.\nEl foco del proyecto estuvo en la elección de materiales, utilizando terrazo in situ y enchapado en Guatambú para lograr la integración con los materiales de la vivienda existente (carpinterías de madera y granito).",
+        fecha: "Octubre 2020",
         fotos: fotosBernal.Bernal,
       },
     ];

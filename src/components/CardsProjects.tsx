@@ -37,7 +37,7 @@ function CardProject({ project }: Props) {
           casing="uppercase"
           textAlign={"center"}
         >
-          {project.title}
+          {project.obra}
         </Text>
       </Flex>
     </VStack>

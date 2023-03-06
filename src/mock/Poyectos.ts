@@ -3,8 +3,8 @@ import { Proyectos } from "../mock/types";
 //FotosPortada
 import bernal from "../assets/Bernal/12.webp";
 import laplata from "../assets/LaPlata/10.webp";
-import mirna from "../assets/Mirna/5.webp";
-import panaderia from "../assets/Panaderia/7.webp";
+import mirna from "../assets/Mirna/4.webp";
+import panaderia from "../assets/Panaderia/6.webp";
 
 //Array de fotos
 import fotosBernal from "../mock/Bernal";
@@ -41,7 +41,7 @@ export default {
       {
         id: 3,
         title: "La Plata",
-        obra: "La plata",
+        obra: "La Plata",
         portada: laplata,
         url: "laplata",
         description:

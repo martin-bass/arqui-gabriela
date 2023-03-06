@@ -4,15 +4,13 @@ function NavBar() {
   return (
     <HStack
       py={4}
-      px={20}
+      px={28}
       w={"full"}
       display={"flex"}
       justifyContent={"space-between"}
       position={"fixed"}
-      //borderBottom={"1px solid #279127"}
       bgColor={"white"}
       zIndex="overlay"
-      //color={'whiteAlpha.900'}
     >
       <Link href="/projects" style={{ textDecoration: "none" }}>
         <Text

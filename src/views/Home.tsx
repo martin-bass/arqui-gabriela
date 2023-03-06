@@ -33,6 +33,7 @@ const fotosHome = [
   { id: 6, foto: foto6, hover: false },
   { id: 2, foto: foto2, hover: false },
   { id: 3, foto: foto3, hover: false },
+  { id: 15, foto: foto15, hover: false },
   { id: 4, foto: foto4, hover: false },
   { id: 9, foto: foto9, hover: false },
   { id: 7, foto: foto7, hover: false },
@@ -44,7 +45,7 @@ const fotosHome = [
   { id: 14, foto: foto14, hover: false },
   { id: 12, foto: foto12, hover: false },
   { id: 16, foto: foto16, hover: false },
-  { id: 15, foto: foto15, hover: false },
+  
 ];
 
 type Props = {
@@ -53,7 +54,7 @@ type Props = {
 
 function Home() {
   const breakpointColumnsObj = {
-    default: 4,
+    default: 3,
     1100: 3,
     700: 2,
     500: 1,

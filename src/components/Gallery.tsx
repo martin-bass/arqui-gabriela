@@ -27,7 +27,7 @@ function Gallery({ projectFound }: Props) {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const breakpointColumnsObj = {
-    default: 5,
+    default: 4,
     1100: 4,
     700: 2,
     500: 1,
@@ -44,11 +44,13 @@ function Gallery({ projectFound }: Props) {
 
   return (
     <Stack
-      w={"1440px"}
-      px={10}
+      px={4}
       data-aos="fade-up"
       data-aos-duration="1000"
       data-aos-delay="100"
+      display={'flex'}
+      alignItems='center'
+      justifyContent={'center'}
     >
       <Stack>
         <Masonry
@@ -63,10 +65,10 @@ function Gallery({ projectFound }: Props) {
               src={f.url}
               boxSize={250}
               h={"auto"}
-              margin={4}
+              mx={2}
+              my={4}
               onClick={() => handleSelect(f.id)}
               cursor="pointer"
-              //borderRadius={"3xl"}
               border={"1px solid #A0AEC0"}
             />
           ))}

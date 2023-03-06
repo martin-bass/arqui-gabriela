@@ -15,11 +15,9 @@ function Footer() {
     <Stack
       py={4}
       w={"full"}
-      paddingRight={10}
+      paddingRight={28}
       alignItems={"end"}
-      //borderTop={"1px solid #279127"}
       bgColor={"white"}
-      //color={'whiteAlpha.900'}
       zIndex={10}
     >
       <HStack>

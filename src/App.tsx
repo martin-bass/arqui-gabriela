@@ -25,7 +25,7 @@ function App() {
           paddingX={0}
           w={"1440px"}
           overflowX="hidden"
-          maxW={"1440px"}
+          maxW={'container.xl'}
         >
           <Routes>
             <Route element={<Home />} path="/" />

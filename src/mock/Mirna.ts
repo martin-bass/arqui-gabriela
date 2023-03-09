@@ -1,7 +1,6 @@
 import { Fotos } from "./types";
 
 import foto1 from "../assets/Mirna/1.webp";
-import foto2 from "../assets/Mirna/2.webp";
 import foto3 from "../assets/Mirna/3.webp";
 import foto4 from "../assets/Mirna/4.webp";
 import foto5 from "../assets/Mirna/5.webp";
@@ -21,11 +20,6 @@ export default {
       {
         id: 1,
         url: foto1,
-        descripcion: "",
-      },
-      {
-        id: 2,
-        url: foto2,
         descripcion: "",
       },
       {

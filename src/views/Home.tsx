@@ -42,9 +42,9 @@ const fotosHome = [
   { id: 7, foto: foto7, hover: false },
   { id: 11, foto: foto11, hover: false },
   { id: 8, foto: foto8, hover: false },
+  { id: 14, foto: foto14, hover: false },
   { id: 15, foto: foto15, hover: false },
   { id: 3, foto: foto3, hover: false },
-  { id: 14, foto: foto14, hover: false },
 ];
 
 type Props = {

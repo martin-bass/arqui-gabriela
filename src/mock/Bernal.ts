@@ -12,10 +12,22 @@ import foto9 from "../assets/Bernal/9.webp";
 import foto10 from "../assets/Bernal/10.webp";
 import foto11 from "../assets/Bernal/11.webp";
 import foto12 from "../assets/Bernal/12.webp";
+import foto13 from "../assets/Bernal/13.webp";
+import foto14 from "../assets/Bernal/14.webp";
 
 export default {
   get Bernal(): Fotos[] {
     return [
+      {
+        id: 14,
+        url: foto14,
+        descripcion: "",
+      },
+      {
+        id: 11,
+        url: foto11,
+        descripcion: "",
+      },
       {
         id: 1,
         url: foto1,
@@ -72,10 +84,11 @@ export default {
         descripcion: "",
       },
       {
-        id: 11,
-        url: foto11,
+        id: 13,
+        url: foto13,
         descripcion: "",
       },
+      
     ];
   },
 };

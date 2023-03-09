@@ -4,7 +4,7 @@ import { Proyectos } from "../mock/types";
 import bernal from "../assets/Bernal/12.webp";
 import laplata from "../assets/LaPlata/10.webp";
 import mirna from "../assets/Mirna/4.webp";
-import panaderia from "../assets/Panaderia/6.webp";
+import panaderia from "../assets/Panaderia/9.webp";
 
 //Array de fotos
 import fotosBernal from "../mock/Bernal";

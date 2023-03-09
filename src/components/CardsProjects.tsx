@@ -32,8 +32,8 @@ function CardProject({ project }: Props) {
         <Text
           w={"full"}
           paddingLeft={12}
-          fontSize={20}
-          _hover={{ color: "#279127" }}
+          fontSize={16}
+          _hover={{ color: "#A0AEC0" }}
           casing="uppercase"
           textAlign={"center"}
         >

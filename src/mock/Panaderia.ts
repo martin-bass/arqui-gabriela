@@ -8,6 +8,7 @@ import foto5 from "../assets/Panaderia/5.webp";
 import foto6 from "../assets/Panaderia/6.webp";
 import foto7 from "../assets/Panaderia/7.webp";
 import foto8 from "../assets/Panaderia/8.webp";
+import foto9 from "../assets/Panaderia/8.webp";
 
 export default {
   get Panaderia(): Fotos[] {
@@ -51,6 +52,11 @@ export default {
       {
         id: 8,
         url: foto8,
+        descripcion: "",
+      },
+      {
+        id: 9,
+        url: foto9,
         descripcion: "",
       },
     ];

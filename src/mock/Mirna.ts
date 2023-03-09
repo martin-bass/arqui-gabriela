@@ -10,6 +10,7 @@ import foto7 from "../assets/Mirna/7.webp";
 import foto8 from "../assets/Mirna/8.webp";
 import foto9 from "../assets/Mirna/9.webp";
 import foto10 from "../assets/Mirna/10.webp";
+import foto11 from "../assets/Mirna/11.webp";
 
 export default {
   get Mirna(): Fotos[] {
@@ -63,6 +64,11 @@ export default {
       {
         id: 10,
         url: foto10,
+        descripcion: "",
+      },
+      {
+        id: 11,
+        url: foto11,
         descripcion: "",
       },
     ];

@@ -16,7 +16,7 @@ function NavBar() {
         <Text
           fontSize={20}
           paddingLeft={12}
-          _hover={{ color: "#279127" }}
+          _hover={{ color: "#A0AEC0" }}
           casing="uppercase"
         >
           Proyectos
@@ -28,9 +28,9 @@ function NavBar() {
           fontSize={20}
           fontWeight={"bold"}
           paddingRight={12}
-          _hover={{ color: "#279127" }}
+          _hover={{ color: "#A0AEC0" }}
         >
-          ARQ Gabriela Yapur
+          GABRIELA YAPUR . ARQ
         </Text>
       </Link>
     </HStack>

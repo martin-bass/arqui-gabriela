@@ -27,7 +27,7 @@ function Footer() {
               aria-label={"instagram"}
               icon={<BsInstagram size={"28px"} />}
               variant={"ghost"}
-              _hover={{ bgColor: "none", color: "#279127" }}
+              _hover={{ bgColor: "none", color: "#A0AEC0" }}
             />
           </Tooltip>
         </Link>

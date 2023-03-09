@@ -53,15 +53,15 @@ function ProjectDetail({ params }: Props) {
       <VStack alignItems={"start"} px={10} pb={6} spacing={2}>
         <Flex whiteSpace={"break-spaces"}>
           <Text fontWeight={"bold"}>Obra: </Text>
-          <Text>{projectFound?.obra}</Text>
+          <Text fontFamily='sans-serif'>{projectFound?.obra}</Text>
         </Flex>
         <Flex whiteSpace={"break-spaces"}>
           <Text fontWeight={"bold"}>Fecha: </Text>
-          <Text>{projectFound?.fecha}</Text>
+          <Text fontFamily='sans-serif'>{projectFound?.fecha}</Text>
         </Flex>
         <Flex whiteSpace={"break-spaces"}>
           <Text fontWeight={"bold"}>Descripción: </Text>
-          <Text textAlign={"left"}>{projectFound?.description}</Text>
+          <Text textAlign={"left"} fontFamily='sans-serif'>{projectFound?.description}</Text>
         </Flex>
       </VStack>
       <Gallery projectFound={projectFound} />

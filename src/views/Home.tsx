@@ -29,23 +29,22 @@ import foto16 from "../assets/Home/16.jpg";
 
 //Cards para el Home
 const fotosHome = [
-  { id: 1, foto: foto1, hover: false },
+  { id: 10, foto: foto10, hover: false },
+  { id: 9, foto: foto9, hover: false },
+  { id: 16, foto: foto16, hover: false },
   { id: 6, foto: foto6, hover: false },
   { id: 2, foto: foto2, hover: false },
-  { id: 3, foto: foto3, hover: false },
-  { id: 15, foto: foto15, hover: false },
-  { id: 4, foto: foto4, hover: false },
-  { id: 9, foto: foto9, hover: false },
-  { id: 7, foto: foto7, hover: false },
   { id: 5, foto: foto5, hover: false },
-  { id: 10, foto: foto10, hover: false },
-  { id: 8, foto: foto8, hover: false },
   { id: 13, foto: foto13, hover: false },
-  { id: 11, foto: foto11, hover: false },
-  { id: 14, foto: foto14, hover: false },
   { id: 12, foto: foto12, hover: false },
-  { id: 16, foto: foto16, hover: false },
-  
+  { id: 1, foto: foto1, hover: false },
+  { id: 4, foto: foto4, hover: false },
+  { id: 7, foto: foto7, hover: false },
+  { id: 11, foto: foto11, hover: false },
+  { id: 8, foto: foto8, hover: false },
+  { id: 15, foto: foto15, hover: false },
+  { id: 3, foto: foto3, hover: false },
+  { id: 14, foto: foto14, hover: false },
 ];
 
 type Props = {
